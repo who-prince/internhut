@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {},
+    fontFamily: {
+      hatton: ["PP hatton", "sans"],
+    },
     colors: {
       white: "#ffffff",
       purple: "#3f3cbb",
@@ -10,13 +13,16 @@ module.exports = {
       metal: "#565584",
       tahiti: "#3ab7bf",
       silver: "#ecebff",
-      "bubble-gum": "#ff77e9",
+      bubble: "#ff77e9",
       bermuda: "#78dcca",
       primary: "#6d9773",
-      secondary: "#0c3b2e",
+      secondary: "#E6E6E6",
       tertiary: "#bb8a52",
-      color_1: "#ffba00",
-      green: "#12AD2B"
+      color_1: "#4A6E63",
+      color_2: "#aac7d8",
+      green: "#12AD2B",
+      gray: "#808080",
+      black:"#000000"
     },
     animation: {
       wiggle: "wiggle 3s linear infinite",

@@ -12,8 +12,10 @@ const Domain = () => {
           <h2 className="text-color_1 text-4xl font-mono font-bold hidden md:block">
             Domains We offer Internships in:
           </h2>
-         <p className="text-color_1 text-4xl font-mono font-bold md:hidden">Our Domains:</p>
-          <p className="text-white text-md">
+          <p className="text-color_1 text-4xl font-mono font-bold md:hidden">
+            Our Domains:
+          </p>
+          <p className="text-md font-sans">
             At Intern Hut, we focus on various aspect of computer software
             engineering and give our 100% to bring your ideas to reality.
           </p>

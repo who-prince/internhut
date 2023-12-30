@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import v3 from "../assets/logo_2.png";
-import { HashLink } from "react-router-hash-link";
 
 const Header = () => {
   return (
@@ -9,14 +8,9 @@ const Header = () => {
       <Link to={"/"}>
         <img className=" w-36 " src={v3} alt="" />
       </Link>
-      <div className="w-{30%} hidden md:flex justify-center items-center gap-24 font-medium text-2xl text-white uppercase font-mono ">
-        <HashLink to={"/"}>Home</HashLink>
-        <HashLink to={"/about"}>About</HashLink>
-        <HashLink to={"/contact"}>Contact Us</HashLink>
-      </div>
-      <Link to={"/login"}>
-        <button className="w-28 p-2 text-white rounded-md bg-color_1 font-medium text-xl font-mono uppercase hover:bg-opacity-80">
-          Log In
+      <Link to={"/auth"}>
+        <button className="w-full px-4 py-3 flex justify-center items-center text-white rounded-xl bg-color_1 font-medium text-xl font-mono  hover:bg-opacity-80 outline outline-2 outline-gray -outline-offset-4 hover:outline-offset-4 duration-300 hover:outline-white">
+          Register/Login
         </button>
       </Link>
     </nav>

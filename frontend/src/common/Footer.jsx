@@ -3,13 +3,14 @@ import { Link } from "react-router-dom";
 import l1 from "../assets/logo_2.png";
 import { Facebook, Github, Instagram, Linkedin, Twitter } from "lucide-react";
 
-
 const Footer = () => {
   return (
-    <div className=" h-full md:h-56 w-full bg-secondary p-8 md:p-16 ">
+    <div className=" h-full md:h-60 w-full bg-secondary p-8 md:p-16 outline ">
       <div className=" flex md:flex-row flex-col justify-between">
         <div className=" md:w-[18%] w-full md:block flex flex-col justify-center items-center">
-          <Link to={'/'}><img className="h-12" src={l1} alt="" /></Link>
+          <Link to={"/"}>
+            <img className="h-12" src={l1} alt="" />
+          </Link>
           <p className=" font-bold text-color_1 uppercase font-mono mt-4 tracking-widest animate-change">
             Empowering Enthusiasts.
           </p>
@@ -20,7 +21,7 @@ const Footer = () => {
             <Link to={"/resources"}>Resources</Link>
             <Link to={"/affiliates"}>Affiliates</Link>
             <Link to={"/community"}>Community</Link>
-          </div> 
+          </div>
           <div className=" text-white font-bold uppercase flex flex-col gap-2">
             <Link to={"/about"}>About Us</Link>
             <Link to={"/contact"}>Contact Us</Link>
@@ -29,8 +30,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex justify-center items-center flex-col">
-        <div className=" h-[1px] w-80 bg-white mt-2"></div>
-        <div className="flex p-4 gap-10 text-white">
+        <div className="outline outline-1 mb-4 outline-black w-[20%] mt-4"></div>
+        <div className="flex gap-10 text-black">
           <Link to={"https://www.facebook.com/prince.chaurasia.169405"}>
             <Facebook />
           </Link>

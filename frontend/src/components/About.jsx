@@ -1,6 +1,6 @@
 import React from "react";
 import P1 from "../assets/1adb6fb9-d408-4c07-8045-1de61f971223.jpg";
-import P2 from '../assets/useVector.png';
+import P2 from "../assets/useVector.png";
 
 const About = () => {
   return (

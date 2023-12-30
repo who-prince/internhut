@@ -6,7 +6,7 @@ const DescriptionCard = () => {
   return (
     <div className=" h-full w-full bg-secondary">
       <div className="w-full flex flex-col md:flex-row justify-center items-center gap-8 p-4 md:p-12">
-        <div className="outline-dashed outline-silver bg-opacity-80 hover:bg-opacity-100 p-4 flex flex-col flex-wrap gap-6 text-white font-sans font-medium duration-200 outline-2 rounded-md md:h-[40%] w-[100%] md:w-[25%] bg-primary drop-shadow-md ">
+        <div className="outline-dashed outline-black bg-opacity-80 hover:bg-opacity-100 p-4 flex flex-col flex-wrap gap-6 text-white font-sans font-medium duration-200 outline-2 rounded-md md:h-[40%] w-[100%] md:w-[25%] bg-primary drop-shadow-md ">
           <div className="h-20 w-20 rounded-full bg-color_1 flex justify-center items-center">
             <Code size={40} />
           </div>
@@ -16,7 +16,7 @@ const DescriptionCard = () => {
             interested in the same things.
           </p>
         </div>
-        <div className="outline-dashed outline-silver bg-opacity-80 hover:bg-opacity-100 p-4 flex flex-col gap-6 text-white font-sans font-medium duration-200 outline-2 rounded-md md:h-[40%] w-[100%] md:w-[25%] bg-primary drop-shadow-md ">
+        <div className="outline-dashed outline-black bg-opacity-80 hover:bg-opacity-100 p-4 flex flex-col gap-6 text-white font-sans font-medium duration-200 outline-2 rounded-md md:h-[40%] w-[100%] md:w-[25%] bg-primary drop-shadow-md ">
           <div className="h-20 w-20 rounded-full bg-color_1 flex justify-center items-center">
             <Blocks size={40} />
           </div>
@@ -26,7 +26,7 @@ const DescriptionCard = () => {
             interested in the same things.
           </p>
         </div>
-        <div className="outline-dashed outline-silver bg-opacity-80 hover:bg-opacity-100 p-4 flex flex-col gap-6 text-white font-sans font-medium duration-200 outline-2 rounded-md md:h-[40%] w-[100%] md:w-[25%] bg-primary drop-shadow-md ">
+        <div className="outline-dashed outline-black bg-opacity-80 hover:bg-opacity-100 p-4 flex flex-col gap-6 text-white font-sans font-medium duration-200 outline-2 rounded-md md:h-[40%] w-[100%] md:w-[25%] bg-primary drop-shadow-md ">
           <div className="h-20 w-20 rounded-full bg-color_1 flex justify-center items-center">
             <Users2 size={40} />
           </div>
@@ -36,7 +36,7 @@ const DescriptionCard = () => {
             interested in the same things.
           </p>
         </div>
-        <div className="outline-dashed outline-silver bg-opacity-80 hover:bg-opacity-100 p-4 flex flex-col gap-6 text-white font-sans font-medium duration-200 outline-2 rounded-md md:h-[40%] w-[100%] md:w-[25%] bg-primary drop-shadow-md ">
+        <div className="outline-dashed outline-black bg-opacity-80 hover:bg-opacity-100 p-4 flex flex-col gap-6 text-white font-sans font-medium duration-200 outline-2 rounded-md md:h-[40%] w-[100%] md:w-[25%] bg-primary drop-shadow-md ">
           <div className="h-20 w-20 rounded-full bg-color_1 flex justify-center items-center">
             <GitBranch size={40} />
           </div>

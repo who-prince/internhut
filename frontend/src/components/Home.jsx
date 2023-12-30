@@ -13,20 +13,29 @@ import DescriptionCard from "../fragments/DescriptionCard";
 const Home = () => {
   return (
     <>
-      <div id="home" className=" h-full w-full bg-secondary flex">
+      <div id="home" className="h-full w-full bg-secondary flex items-center">
         <div className=" w-full h-full gap-12 flex justify-center flex-col p-8 md:p-16">
-          <h3 className=" font-mono font-bold text-5xl md:text-6xl text-white leading-normal">
-            Empowering <br />
-            Enthusiasts <br />
-            <span className=" text-color_1 animate-change ">:Intern Hut</span>
-          </h3>
-          <p className=" text-white text-xl font-sans">
+          <div className="flex flex-col gap-4">
+            <p className=" font-hatton font-bold text-5xl md:text-5xl leading-loose">
+              Unlocking the Power
+            </p>
+            <p className=" font-hatton font-bold text-5xl md:text-5xl leading-loose">
+              of Virtual Internships:
+            </p>
+            <p className=" font-hatton font-bold text-5xl md:text-5xl leading-loose">
+              Shaping the future,
+            </p>
+            <p className=" font-hatton font-bold text-5xl md:text-5xl leading-loose">
+              Creating Change.
+            </p>
+          </div>
+          <p className="text-xl font-hatton">
             Your Destination for Career Building. Explore internships,
             <br /> acquire skills, and embark on your path to success.
           </p>
           <HashLink
             to={"#apply"}
-            className=" scroll-smooth text-white font-bold uppercase bg-color_1 h-12 w-40 rounded-md font-mono p-2 duration-200 text-xl text-center outline outline-2 -outline-offset-4 hover:outline-offset-4 hover:bg-green"
+            className=" scroll-smooth text-white font-bold uppercase bg-primary h-12 w-40 rounded-xl font-mono p-2 duration-200 text-xl text-center outline outline-2 outline-gray -outline-offset-4 hover:outline-offset-4 hover:bg-green"
           >
             Apply Now
           </HashLink>

@@ -4,22 +4,29 @@ import Header from "./common/Header";
 import About from "./components/About";
 import Footer from "./common/Footer";
 import Contact from "./components/Contact"
-import Login from "./common/Login";
 import Glossary from "./fragments/Glossary";
+import AuthPage from "./common/AuthPage";
+import { authCardContext } from "./AppContext";
+import { useState } from "react";
 
 function App() {
+  const [auth , setAuth] = useState(false)
+
   return (
+    <authCardContext.Provider value={{auth,setAuth}} >
     <BrowserRouter>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/auth" element={<AuthPage  />} />
         <Route path="/glossary" element={<Glossary />} />
       </Routes>
       <Footer />
     </BrowserRouter>
+    </authCardContext.Provider>
+
   );
 }
 
