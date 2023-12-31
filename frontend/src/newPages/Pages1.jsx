@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
 
 export default function Pages1() {
   return (
     <div>
-       This is new Page    
+      <ul>
+        <li>Home</li>
+        <li>Home </li>
+        <li>Home</li>
+        <li>Home</li>
+      </ul>
     </div>
-  )
+  );
 }
