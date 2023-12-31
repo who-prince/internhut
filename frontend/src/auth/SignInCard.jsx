@@ -22,7 +22,9 @@ export const SignInCard = () => {
     await axios
       .post("/api/v1/signin", { username, password })
       .then((res) => {
-        res.redirect("/");
+        if (res.data.success && res.data.redirectTo) {
+          window.location.href = res.data.redirectTo;
+        }
         console.log(res.status);
         console.log("logged in successfully !");
       })

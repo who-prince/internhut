@@ -5,7 +5,11 @@ export const signIn = async (req, res) => {
   const user = await User.findOne({ username });
   try {
     if (password == user.password) {
-      res.status(200).json("Login Successfully");
+      res.status(200).json({
+        success: true,
+        redirectTo: "/",
+        message: "Login Successfully !",
+      });
     }
   } catch (error) {
     res.status(500).json({
